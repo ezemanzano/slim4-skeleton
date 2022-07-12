@@ -18,7 +18,7 @@ services:
       - ./app/:/var/www/app
       - ./docker/php/local.ini:/usr/local/etc/php/conf.d/local.ini
     networks:
-      - nb-api-rest-network
+      - postventa-api-rest-network
   
 # Docker Networks
 
