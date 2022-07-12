@@ -1,0 +1,9 @@
+#######################################
+# Limpieza de logs
+#######################################
+
+0 0 * * * root > /var/log/apache2/access.log >/dev/null 2>&1
+0 0 * * * root > /var/log/apache2/error.log >/dev/null 2>&1
+0 0 * * * root > /var/log/apache2/other_vhosts_access.log >/dev/null 2>&1
+
+0 0 * * * root rm -R /var/www/app/logs/* >/dev/null 2>&1
