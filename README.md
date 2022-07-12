@@ -28,7 +28,7 @@ Algunas de las tecnologías involucradas en el desarrollo son:
 2. Crea el archivo .env con `cp app/.env-example app/.env`
 3. Crea el archivo docker-compose.yml con `cp docker-compose.example.yml docker-compose.yml`
 4. Corra el docker-compose-file para crear las nuevas instancias con `sudo docker-compose up -d`.
-5. Acceda a la instancia de la api con `sudo docker exec -it lo-service-notificactions-api-rest bash`.
+5. Acceda a la instancia de la api con `sudo docker exec -it postventa-api-rest bash`.
 6. Proporcionele a apache los permisos necesarios con para app con `chown -R www-data /var/www/app`.
 7. Instale las dependecias de composer usando `composer install`
 
